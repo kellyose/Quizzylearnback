@@ -29,8 +29,8 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/quizzylea
 // Routes
 app.use('/api/auth', require('./src/routes/auth'));
 app.use('/api/users', require('./src/routes/users'));
-app.use('/api/quizzes', require('./src/routes/quizzes'));
-app.use('/api/scores', require('./src/routes/scores'));
+//app.use('/api/quizzes', require('./src/routes/quizzes'));
+//app.use('/api/scores', require('./src/routes/scores'));
 
 // Test
 app.get('/api/test', (req, res) => {
