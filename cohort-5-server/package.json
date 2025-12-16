@@ -1,7 +1,7 @@
 {
-  "name": "finance-app-backend",
+  "name": "quizzy learn",
   "version": "1.0.0",
-  "description": "Backend for finance app",
+  "description": "Backend for Quizzy Learn application",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
